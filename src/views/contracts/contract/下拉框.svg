@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>编组 6</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="后台图标" transform="translate(-30.000000, -81.000000)">
+            <g id="编组-6" transform="translate(30.000000, 81.000000)">
+                <rect id="矩形" fill-opacity="0.01" fill="#D8D8D8" x="0" y="0" width="160" height="160"></rect>
+                <g id="xia-2" transform="translate(10.000000, 42.000000)" fill="#D5D2D2" fill-rule="nonzero">
+                    <path d="M0.05859375,4.90234375 C0.05859375,3.65234375 0.52734375,2.40234375 1.484375,1.4453125 C3.3984375,-0.46875 6.484375,-0.46875 8.3984375,1.4453125 L70.1757813,63.2226563 L131.953125,1.4453125 C133.867188,-0.46875 136.953125,-0.46875 138.867188,1.4453125 C140.78125,3.359375 140.78125,6.4453125 138.867188,8.359375 L73.6328125,73.59375 C71.71875,75.5078125 68.6328125,75.5078125 66.71875,73.59375 L1.484375,8.359375 C0.52734375,7.40234375 0.05859375,6.15234375 0.05859375,4.90234375 Z" id="路径"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

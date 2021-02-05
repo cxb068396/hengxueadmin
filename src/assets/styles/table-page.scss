@@ -1,0 +1,160 @@
+// 表格上方高级查询覆盖默认样式
+.adv-search {
+  .reset {
+    background: #fff;
+    color: #4381e6;
+    border-color: #4381e6;
+  }
+
+  ::v-deep .el-input {
+    width: 260px;
+  }
+  .icon {
+    width: 1em;
+    height: 1em;
+    // vertical-align: -1px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .adv-search {
+    ::v-deep .el-input {
+      width: 230px;
+    }
+  }
+}
+
+.orange {
+  background-color: #f7931e;
+  border-color: #f7931e;
+  color: #ffffff;
+}
+
+// flex 布局
+@mixin flex-start() {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.flex-fill {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.item-start {
+  align-items: flex-start;
+}
+.column {
+  flex-direction: column;
+}
+.flex-1 {
+  flex: 1;
+}
+.flex-2 {
+  flex: 2;
+}
+.flex-3 {
+  flex: 3;
+}
+.flex-4 {
+  flex: 4;
+}
+.no-wrap {
+  flex-wrap: nowrap;
+}
+
+// 通用样式
+
+.font-14 {
+  font-size: 14px;
+}
+.font-20 {
+  font-size: 20px;
+}
+
+.w-100p {
+  width: 100%;
+}
+.ma-t-20 {
+  margin-top: 20px;
+}
+.ma-b-20 {
+  margin-bottom: 20px;
+}
+.ma-bt-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.ma-t-16 {
+  margin-top: 16px;
+}
+.ma-b-16 {
+  margin-bottom: 16px;
+}
+.ma-bt-16 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.mr-24 {
+  margin-right: 24px;
+}
+
+// 单行文本溢出隐藏
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+// 绝对布局居中
+.position-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+// 绝对布局 位于容器底部
+.position-bottom {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+// 行内元素分割 一个字体大小
+.sepeate {
+  display: inline-block;
+  width: 1em;
+}
+
+// 更改滚动条样式
+.scroll-bar {
+  &::-webkit-scrollbar {
+    width: 10px;
+    height: 0;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: rgba(193, 193, 193, 0.4);
+    border-radius: 5px;
+  }
+}

@@ -1,0 +1,139 @@
+.c-333 {
+  color: #333;
+}
+.c-999 {
+  color: #999;
+}
+.header {
+  height: 60px;
+  background: #4381e6;
+  border-radius: 0px 16px 0px 0px;
+  padding: 0 40px;
+  color: #fff;
+  font-size: 24px;
+  .close-icon {
+    width: 28px;
+    height: 28px;
+    font-size: 28px;
+  }
+}
+.body {
+  flex: 1;
+  // height: 780px;
+  height: auto;
+}
+.left,
+.right {
+  width: 320px;
+}
+
+.middle {
+  margin-left: 4px;
+  margin-right: 4px;
+  background: #fff;
+  width: 944px;
+  flex: 1;
+  .chat-history {
+    padding: 40px 38px 24px 38px;
+    color: #999;
+    overflow: scroll;
+    width: 100%;
+    .time-row {
+      position: relative;
+    }
+
+    .chat-seperate-line {
+      width: 100%;
+    }
+    .dash-line {
+      width: 380px;
+      height: 0;
+      border: 1px dashed #bcbcbc;
+    }
+    .connect-info {
+      width: 180px;
+      height: 32px;
+      line-height: 32px;
+      background-color: #f4f4f4;
+      text-align: center;
+      margin: 15px 0;
+      border-radius: 16px;
+    }
+  }
+  .toolbar {
+    height: 52px;
+    width: 100%;
+    // padding: 0 40px;
+    padding-left: 40px;
+    background: #d6d6d6;
+    .left-tool{
+      position: relative;
+    }
+    .tool-icon {
+      width: 30px;
+      height: 30px;
+      margin-right: 40px;
+    }
+  }
+  .input {
+    height: 158px;
+    width: 100%;
+    border: none;
+    resize: none;
+    font-size: 20px;
+    padding: 20px 34px;
+    outline: none;
+    color: #999;
+  }
+}
+.right {
+  background: #fff;
+
+  border-radius: 0px 0 16px 0;
+  overflow: hidden;
+
+  .title {
+    width: 160px;
+    height: 36px;
+    line-height: 36px;
+    color: #4381e6;
+    font-size: 20px;
+    border-radius: 18px;
+    border: 1px solid #4381e6;
+    text-align: center;
+  }
+
+  .avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  }
+  .label {
+    color: #333;
+  }
+  .content {
+    color: #999;
+  }
+  .textarea {
+    width: 280px;
+    height: 80px;
+    background: #ffffff;
+    border: 1px dashed #4381e6;
+    border-radius: 16px;
+    padding: 18px 20px;
+    color: #4381e6;
+    resize: none;
+  }
+
+  .constumer-status {
+    width: 180px;
+    height: 32px;
+    background: #f4f4f4;
+    border-radius: 16px;
+    text-align: center;
+    line-height: 32px;
+
+    color: #999;
+    font-size: 16px;
+  }
+}
